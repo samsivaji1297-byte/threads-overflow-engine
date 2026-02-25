@@ -30,3 +30,4 @@ jobs:
           THREADS_CSRF: ${{ secrets.THREADS_CSRF }}
           THREADS_MID: ${{ secrets.THREADS_MID }}
           THREADS_IG_DID: ${{ secrets.THREADS_IG_DID }}
+          THREADS_RUR: ${{ secrets.THREADS_RUR }}
