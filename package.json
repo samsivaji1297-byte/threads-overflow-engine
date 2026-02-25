@@ -1,1 +1,10 @@
-
+{
+  "name": "threads-overflow-engine",
+  "version": "1.0.0",
+  "main": "post.js",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "playwright": "^1.58.2"
+  }
+}
