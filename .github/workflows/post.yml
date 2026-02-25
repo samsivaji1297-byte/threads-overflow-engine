@@ -26,3 +26,7 @@ jobs:
         run: node post.js
         env:
           THREADS_SESSIONID: ${{ secrets.THREADS_SESSIONID }}
+          THREADS_DS_USER_ID: ${{ secrets.THREADS_DS_USER_ID }}
+          THREADS_CSRF: ${{ secrets.THREADS_CSRF }}
+          THREADS_MID: ${{ secrets.THREADS_MID }}
+          THREADS_IG_DID: ${{ secrets.THREADS_IG_DID }}
