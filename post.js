@@ -48,6 +48,14 @@ async function postToThreads(text) {
       path: "/",
       secure: true,
       sameSite: "None"
+    },
+    {
+      name: "rur",
+      value: process.env.THREADS_RUR,
+      domain: ".threads.net",
+      path: "/",
+      secure: true,
+      sameSite: "None"
     }
   ]);
 
